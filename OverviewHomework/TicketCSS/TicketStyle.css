@@ -1,0 +1,63 @@
+
+       body
+        {
+            background-color: #909090;
+            font-family: 'Arial Narrow';
+
+
+        }
+        h1
+        {
+            margin: 0;
+            padding: 0 0 2px 2px;
+            font-size: 20px;
+            color: #E8E8E8;
+            font-weight: normal;
+        }
+        
+        section dt
+        {
+            font-style: italic;
+            color: #D8D8D8;
+            padding-left: 5px;
+            margin-top: 13px;
+        }
+
+        section dd
+        {
+            margin-top: -16px;
+            margin-left: 130px;
+        }
+
+        .names:before
+        {
+            content: ' ';
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin-right: 4px;
+            border-radius: 50%;
+            background-color: #00cc66;
+        }
+        .activeText
+        {
+            color: #ffff4d;
+        }
+        .message
+        {
+            display: block;
+            color: #e60000;
+        }
+        .noActive
+        {
+            color: #202020;
+        }
+        .statusMessage
+        {
+            color: #ff6600;
+
+        }
+        .hidden
+        {
+            visibility: hidden;
+        }

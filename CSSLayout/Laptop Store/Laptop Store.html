@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laptop Store</title>
+        <link href="Laptop Store.css" rel="stylesheet">
+
+        <script>
+            
+        function outputUpdateMinPrice(x) {
+            document.querySelector("#min-price").value = x;
+        }
+        function outputUpdateMaxPrice(x) {
+            document.querySelector("#max-price").value = x;
+        }
+        function outputUpdateMinRam(x) {
+            document.querySelector("#min-ram").value = x;
+        }
+        function outputUpdateMaxRam(x) {
+            document.querySelector("#max-ram").value = x;
+        }
+        </script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Apple</a></li>
+            <li><a href="#">Toshiba</a></li>
+            <li><a href="#">Lenovo</a></li>
+            <li><a href="#">Dell</a></li>
+            <li><a href="#">Asus</a></li>
+            <li><a href="#">Acer</a></li>
+            <li><a href="#">HP</a></li>
+        </ul>
+    </nav>
+
+    <hr />
+
+    <article>
+        <section>
+            <h2>Apple MacBook Air</h2>
+            <img src="laptop.png" width="173" height="150" alt="Apple MacBook Air" />
+            <ul>
+                <li>64GB SSD</li>
+                <li>2GB DDR</li>
+                <li>Intel Core i5</li>
+                <li>1300 USD</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Apple MacBook Air</h2>
+            <img src="laptop.png" width="173" height="150" alt="Apple MacBook Air" />
+            <ul>
+                <li>64GB SSD</li>
+                <li>2GB DDR</li>
+                <li>Intel Core i5</li>
+                <li>1300 USD</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Apple MacBook Air</h2>
+            <img src="laptop.png" width="173" height="150" alt="Apple MacBook Air" />
+            <ul>
+                <li>64GB SSD</li>
+                <li>2GB DDR</li>
+                <li>Intel Core i5</li>
+                <li>1300 USD</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Apple MacBook Air</h2>
+            <img src="laptop.png" width="173" height="150" alt="Apple MacBook Air" />
+            <ul>
+                <li>64GB SSD</li>
+                <li>2GB DDR</li>
+                <li>Intel Core i5</li>
+                <li>1300 USD</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Apple MacBook Air</h2>
+            <img src="laptop.png" width="173" height="150" alt="Apple MacBook Air" />
+            <ul>
+                <li>64GB SSD</li>
+                <li>2GB DDR</li>
+                <li>Intel Core i5</li>
+                <li>1300 USD</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Apple MacBook Air</h2>
+            <img src="laptop.png" width="173" height="150" alt="Apple MacBook Air" />
+            <ul>
+                <li>64GB SSD</li>
+                <li>2GB DDR</li>
+                <li>Intel Core i5</li>
+                <li>1300 USD</li>
+            </ul>
+        </section>
+
+        <aside>
+            <form>
+                <dl>
+                    <dt><label for="min-price-input">Min price: <output id="min-price">500</output> USD</label></dt>
+                    <dd><input type="range" name="min-price" id="min-price-input" min="0" max="1000" step="10" value="500" oninput="outputUpdateMinPrice(value)"  /></dd>
+
+                    <dt><label for="max-price-input">Max price:  <output id="max-price">1500</output> USD</label></dt>
+                    <dd><input type="range" name="max-price" id="max-price-input" min="1000" max="2000" step="10" value="1500" oninput="outputUpdateMaxPrice(value)" /></dd>
+                </dl>
+
+                <dl>
+                    <dt><label for="min-ram-input">Min RAM: <output id="min-ram">4</output> GB</label></dt>
+                    <dd><input type="range" name="min-ram" id="min-ram-input" min="1" max="7" step="1" value="4" oninput="outputUpdateMinRam(value)" /></dd>
+
+                    <dt><label for="max-ram-input">Max RAM: <output id="max-ram">16</output> GB</label></dt>
+                    <dd><input type="range" name="max-ram" id="max-ram-input" min="8" max="24" step="1" value="16" oninput="outputUpdateMaxRam(value)" /></dd>
+                </dl>
+            </form>
+        </aside>
+    </article>
+</body>
+</html>

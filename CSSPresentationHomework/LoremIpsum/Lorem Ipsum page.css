@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}   
+
+       
+        header
+        {
+            
+            font-family: Edwardian Script ITC;
+            font-size: 24pt;
+            color: #0094ff;
+            margin-left: 5px;
+
+        }
+        article
+        {
+            color: #0094ff;
+            font-family: Consolas;
+            font-size: 12pt;
+            margin-left: 5px;
+        }

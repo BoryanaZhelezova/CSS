@@ -1,0 +1,67 @@
+       table
+        {
+            font-family: Arial;
+            font-size: 13px;
+            border-collapse: collapse;
+            border-bottom: 1px solid #B6B497;
+        }
+        .col1
+        {
+            width: 135px;
+        }
+        .col2
+        {
+            width: 110px;
+        }
+        .col3
+        {
+            width: 115px;
+        }
+        .col4
+        {
+            width: 95px;
+        }
+
+        thead tr 
+        {
+             background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5EC306), color-stop(1, #4FB405));
+        }
+
+        thead th
+        {
+            padding: 4px 4px 4px 6px;
+            border: 1px solid #3B8F0A;
+            text-align: left;
+            font-weight: normal;
+            color: #F5FEF7;
+        }
+
+        tbody tr:nth-child(2n)
+        {
+            background-color: #ECECD8;
+        }
+
+        tbody td
+        {
+            padding: 4px 4px 4px 6px;
+            border-left: 1px solid #C5C3AB;
+            border-right: 1px solid #C5C3AB;
+        }
+
+        .germany-flag:before
+        {
+            content: url('de.png');
+        }
+        .mexico-flag:before
+        {
+            content: url('mx.png');
+            
+        }
+        .gb-flag:before
+        {
+            content: url('uk.png');
+        }
+        .germany-flag:before, .mexico-flag:before, .gb-flag:before
+        {
+            padding-right: 4px;
+        }
